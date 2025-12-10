@@ -39,7 +39,7 @@ public class Count_Nodes{
         if(root==null){
             return 0 ;
         }
-        return root.data+Count(root.left)+Count(root.right);
+        return 1+Count(root.left)+Count(root.right);
 
     }
 
